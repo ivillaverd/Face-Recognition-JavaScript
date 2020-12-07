@@ -1,0 +1,29 @@
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.custom-navbar {
+  background-color: black;
+}
+
+.title {
+  font-size: 3rem;
+  display: inline-block;
+  margin: 0 0 0 1rem;
+  align-items: center;
+}
+
+.container-text {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 0;
+}
+
+.container-fileUpload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
