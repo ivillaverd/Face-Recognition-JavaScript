@@ -1,16 +1,28 @@
+img,
 canvas {
-  position: absolute;
   top: 0;
   left: 0;
+  max-width: 44rem;
+  max-height: 44rem;
+}
+
+canvas {
+  position: absolute;
 }
 
 .custom-navbar {
   background-color: black;
 }
 
+.image-navbar {
+  height: 60px;
+  width: 60px;
+  align-items: center;
+}
+
 .title {
   font-size: 3rem;
-  display: inline-block;
+  display: inline-flex;
   margin: 0 0 0 1rem;
   align-items: center;
 }
@@ -26,4 +38,8 @@ canvas {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+#imgContainer {
+  margin: 2rem 0 0 0;
 }

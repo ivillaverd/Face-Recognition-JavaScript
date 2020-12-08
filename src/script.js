@@ -8,8 +8,8 @@ Promise.all([
 
 async function start() {
   const container = document.createElement('div')
-  container.style.position = 'relative'
-  document.body.append(container)
+  container.className = 'container-image'
+  document.getElementById("imgContainer").appendChild(container);
   const labeledFaceDescriptors = await loadLabeledImages()
   const faceMatcher = new faceapi.FaceMatcher(labeledFaceDescriptors, 0.6)
   let image
