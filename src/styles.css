@@ -10,14 +10,15 @@ canvas {
   position: absolute;
 }
 
-.custom-navbar {
-  background-color: black;
+.navbar-brand {
+  font-size: 3rem;
 }
 
 .image-navbar {
   height: 60px;
   width: 60px;
   align-items: center;
+  margin: 0 0 1rem 0;
 }
 
 .title {
